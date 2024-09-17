@@ -1,4 +1,4 @@
-package com.wodotcode.petclinicapp.service;
+package com.wodotcode.petclinicapp.service.user;
 
 
 import com.wodotcode.petclinicapp.model.User;
