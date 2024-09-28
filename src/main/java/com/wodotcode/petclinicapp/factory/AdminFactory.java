@@ -17,7 +17,7 @@ public class AdminFactory {
     private final UserAttributesMapper userAttributesMapper;
 
 
-    public User createAdmin(RegistrationRequest request) {
+    public Admin createAdmin(RegistrationRequest request) {
 
         Admin admin = new Admin();
 

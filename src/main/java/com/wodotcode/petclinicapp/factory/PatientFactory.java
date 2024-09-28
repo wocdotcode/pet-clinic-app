@@ -16,7 +16,7 @@ public class PatientFactory {
     private final PatientRepository patientRepository;
     private final UserAttributesMapper userAttributesMapper;
 
-    public User createPatient(RegistrationRequest request) {
+    public Patient createPatient(RegistrationRequest request) {
 
         Patient patient = new Patient();
         userAttributesMapper.setCommonAttributes(request, patient);
